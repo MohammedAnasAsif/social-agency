@@ -1,0 +1,19 @@
+# Logins and secrets never leave the server
+cookies/
+sessions/
+*.cookies.json
+*cookies*.json
+.env
+*.env
+secrets/
+tokens/
+*.pem
+*.key
+# Local junk
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.mp4
+*.mov
+tmp/
